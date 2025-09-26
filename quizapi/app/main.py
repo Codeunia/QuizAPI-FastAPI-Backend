@@ -25,7 +25,7 @@ frontend_url = os.environ.get("FRONTEND_URL", "http://localhost:3000")
 
 origins = [
     "http://localhost:3000",
-    FRONTEND_URL,
+    frontend_url,
 
 ]
 
